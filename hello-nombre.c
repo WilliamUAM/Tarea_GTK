@@ -36,6 +36,6 @@ int main(int argc, char **argv){
     gtk_container_add(GTK_CONTAINER(window), button);
     gtk_widget_show(button);
     gtk_widget_show(window);
-    gkt_main();
+    gtk_main();
 
 }
